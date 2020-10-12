@@ -1,0 +1,171 @@
+
+.homeLinker:link {
+    text-align: center;
+    text-decoration:none;
+    font-size:25px;
+    margin: 20px
+  }
+  
+  /* visited link */
+  .homeLinker:visited {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: ruby-base;
+    font-size:25px;
+    margin: 20px
+  }
+  
+  /* mouse over link */
+  .homeLinker:hover {
+    color: rgb(236, 236, 104);
+    font-size: 30px;
+    text-align: center;
+    text-decoration:none;
+    display: ruby-base;
+    font-size:35px;
+    margin: 20px
+  }
+  
+ 
+.login{
+    color: #9cc726;
+    font-family: Verdana;
+    font-size: larger;
+    font-size: 30px;
+}
+.register{
+    color:grey;
+    font-family: Verdana;
+    font-size: larger;
+    font-size: 30px;
+}
+.input {
+    width: 25%;
+    height: 40px;
+    padding: 2px 10px;
+    margin: 12px;
+  }
+
+.loginButton {
+    background-color: #9cc726;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px;
+    border-radius: 12px;
+  }
+  .registerButton {
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px;    
+    border-radius: 12px;
+  }
+  .pageHeaders{
+    color: #9cc726;
+    font-size: 50px;
+  }
+  .innerButtons {
+    transition-duration: 0.4s;
+    width: 250px;
+    height:75px;
+    background-color: rgb(231, 230, 230);
+  border: none;
+  color: rgb(15, 121, 15);
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-stretch: semi-expanded;
+  border-radius: 10px;
+  margin-right: 15px ;
+  }
+  
+  .innerButtons:hover {
+    background-color: #9cc726; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.logoutButton {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    transition-duration: 0.4s;
+    width: 170px;
+    height:60px;
+    background-color: rgb(231, 230, 230);
+  border: none;
+  color: rgb(15, 121, 15);
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-stretch: semi-expanded;
+  border-radius: 10px;
+  margin-right: 15px ;
+  }
+  .logoutButton:hover {
+    background-color: #e63d27; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .correspondingButton {
+    transition-duration: 0.4s;
+    width: 100px;
+    height:40px;
+    background-color: rgb(231, 230, 230);
+  border: none;
+  color: rgb(15, 121, 15);
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-stretch: semi-expanded;
+  border-radius: 8px;
+  margin-left: 15px ;
+  }
+  
+  .correspondingButton:hover {
+    background-color: #9cc726; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .text{
+    color: rgb(131, 124, 124);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+      
+  }
+  .rebitHub{
+    position: fixed;
+    bottom: 2px;
+    right: 20px;
+    font-style: italic;
+    color: green
+
+  }
+  .receivingData{
+    color:#6a8d09;
+  }
+  .App {
+    background-image: url("/image/bg.jpg");
+    background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+ }
+  
